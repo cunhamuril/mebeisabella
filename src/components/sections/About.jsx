@@ -24,6 +24,12 @@ class HoverPage extends React.Component {
                 Neste caminho estou há 20 anos, florescendo como artista, designer e ilustradora.
              </p>
             </div>
+            <div className="about px-md-5 mx-md-5 pt-3">
+              <p className="text-center pt-md-5" id="text-quote">
+                “Se você realmente ama a natureza,
+                você vai encontrar a beleza por toda parte” — Van Gogh
+             </p>
+            </div>
           </MDBRow>
         </MDBContainer>
       </div>

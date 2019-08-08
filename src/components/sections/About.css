@@ -6,9 +6,18 @@
     font-size: 24px;
 }
 
+#text-quote {
+    font-family: 'Lora', serif;
+}
+
 @media(max-width: 720px){
     #text-about {
         font-size: 20px;
+        padding: 0 35px;
+    }
+
+    #text-quote {
+        font-size: 0.85em;
         padding: 0 35px;
     }    
 }

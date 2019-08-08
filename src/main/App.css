@@ -1,0 +1,30 @@
+:root{
+    --selected-color: #ff8a65;
+    --sections-bg-color: #f3e0dc;  
+}
+
+*{
+    font-family: 'Didact Gothic', sans-serif;    
+}
+
+.main, .App{
+    background-image: url("../assets/img/background.jpg");
+    /* background-attachment: fixed; */
+    background-size: 300px;
+}
+
+.about-section, .contact-section{
+    min-height: 100vh;
+    background-color: var(--sections-bg-color);
+}
+
+.galery-section{
+    height: 100%;
+    background-color: var(--sections-bg-color);
+}
+
+@media(max-width: 720px){
+    .contact-section, .about-section{
+        height: 100%;        
+    }
+}

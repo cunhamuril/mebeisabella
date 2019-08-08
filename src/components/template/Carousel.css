@@ -1,0 +1,22 @@
+.carousel{
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+    height: 100vh;
+}
+
+.img-carousel{
+    height: 100vh;    
+    min-width: 1200px;
+    min-height: 768px;
+}
+
+h1>span{
+    color: var(--selected-color);
+    font-family: 'Amatic SC', sans-serif;
+}
+
+.title-cc{
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 5em;
+}

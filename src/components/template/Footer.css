@@ -1,0 +1,11 @@
+#icon-footer {
+    transition: ease-in 0.1s;
+}
+
+#icon-footer:hover {
+    color: var(--selected-color);
+}
+
+.linkfoot:hover {
+    color: #83c71e;
+}

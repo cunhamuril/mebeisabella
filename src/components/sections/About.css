@@ -1,3 +1,14 @@
 #avatar {
     max-width: 250px;
 }
+
+#text-about {
+    font-size: 24px;
+}
+
+@media(max-width: 720px){
+    #text-about {
+        font-size: 20px;
+        padding: 0 35px;
+    }    
+}

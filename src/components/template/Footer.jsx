@@ -5,11 +5,11 @@ import './Footer.css'
 
 const FooterPage = () => {
     return (
-        <MDBFooter color="grey darken-4" className="font-small pt-4 mt-4 wow fadeIn foot" >
+        <MDBFooter color="black" className="font-small pt-4 mt-4 wow fadeIn foot" >
             <MDBContainer fluid className="text-center">
                 <MDBRow>
                     <MDBCol className="col-md-12 py-3">
-                        <div className="mb-5 flex-center">
+                        <div className="mb-3 flex-center">
                             <a href="https://www.facebook.com/mebeisabellaart"
                                 className="fb-ic" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-facebook-f fa-lg  mr-md-5 mr-3 fa-2x"
@@ -29,8 +29,8 @@ const FooterPage = () => {
                     </MDBCol>
                 </MDBRow>
             </MDBContainer>
-            <div className="footer-copyright text-center py-2" >
-                <MDBContainer color="grey darken-1">
+            <div className="footer-copyright text-right py-2" >
+                <MDBContainer fluid color="grey darken-4">
                     Site desenvolvido por &nbsp;
                     <a href="http://github.com/cunhamuril"
                         target="_blank" rel="noopener noreferrer" className="linkfoot">

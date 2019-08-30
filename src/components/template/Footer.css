@@ -1,9 +1,19 @@
 #icon-footer {
-    transition: ease-in 0.1s;
+    font-size: 2.2em;
+    transition: ease-in 0.2s;    
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;     
+    border-radius: 100px;    
 }
 
 #icon-footer:hover {
-    color: var(--selected-color);
+    color: black;
+    background-color: var(--selected-color);
+    transform: scale(1.1);
 }
 
 .linkfoot:hover {
